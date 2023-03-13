@@ -58,7 +58,7 @@ body {
 
 .section-who {
   position: relative;
-  margin-top: -50px;
+  margin-top: -20px;
 }
 
 .bg-who {
@@ -86,6 +86,7 @@ body {
   color: #fff;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
+  margin-top: 6rem;
 }
 
 .card-productcategory {
@@ -172,8 +173,68 @@ body {
   color: #79708a;
 }
 
+.no-js .owl-carousel,
+.owl-carousel.owl-loaded {
+  padding: 0 0;
+}
+
 footer {
   background-color: #547afb;
   margin-top: 5rem;
   color: #fff;
+}
+
+#nav-tab .active {
+  position: relative;
+  top: -30px;
+  transition: 2s ease;
+}
+
+@media (max-width: 575.98px) {
+  .card-body {
+    padding: 0.6rem 0.6rem;
+  }
+  .card-text {
+    font-size: 0.6rem;
+  }
+
+  .card-productcategory h2 {
+    font-size: 0.7rem;
+  }
+
+  .content-carousel h1 {
+    font-size: 1rem;
+  }
+
+  .content-carousel {
+    position: absolute;
+    top: 22%;
+    left: 3%;
+    width: 25%;
+  }
+
+  .btn-oursupport {
+    margin-top: 1rem;
+  }
+
+  .more-details {
+    padding: 2px 20px;
+    font-size: 0.6rem;
+  }
+
+  .card-productcategory h2 {
+    letter-spacing: 0px;
+  }
+
+  .col-title-productcategory {
+    display: hidden;
+  }
+
+  .seeDetails {
+    margin-top: 1rem;
+  }
+
+  .read-more {
+    padding-top: 10px;
+  }
 }
