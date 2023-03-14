@@ -3,7 +3,7 @@ $(document).ready(function () {
     margin: 10,
     loop: true,
     autoWidth: true,
-    items: 3,
+    items: 5,
     autoplay: true,
     autoplayTimeout: 5000,
     dots: true,
@@ -15,7 +15,7 @@ $(document).ready(function () {
         items: 3,
       },
       1000: {
-        items: 3,
+        items: 4,
       },
     },
   });
