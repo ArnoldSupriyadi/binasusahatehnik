@@ -158,7 +158,7 @@ body {
 }
 
 .section-ecommerce {
-  margin-top: 6rem;
+  margin-top: 5rem;
 }
 
 .section-ecommerce h1 {
@@ -223,7 +223,52 @@ footer {
   height: 100px;
   width: 100px;
 }
+
+.section-visimisi h1 {
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: #321963;
+}
+
+.section-visimisi p {
+  letter-spacing: 1px;
+  color: #79708a;
+}
+
+.about-product h5 {
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #79708a;
+}
+
+.about-product p {
+  color: #79708a;
+  letter-spacing: 1px;
+}
 /* END of ABOUT US */
+
+/* Contact */
+.btn-send {
+  background-color: #547afb;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.detail-contact a {
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #547afb;
+}
+
+.bg-contact {
+  position: absolute;
+  left: 75%;
+  top: 5%;
+  z-index: -1;
+  height: 90%;
+  border-radius: 0 0 20px;
+}
+/* End of Contact us */
 
 @media (max-width: 575.98px) {
   .card-body {
