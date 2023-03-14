@@ -189,6 +189,42 @@ footer {
   transition: 2s ease;
 }
 
+/* ABOUT */
+.section-ourhistory {
+  background-color: #547afb;
+  color: #fff;
+  letter-spacing: 1px;
+  padding: 30px 0;
+}
+
+.section-ourhistory h1 {
+  font-weight: 600;
+}
+
+.section-ourhistory p {
+  font-weight: 300;
+}
+
+.card-test1 {
+  background: #ffffff;
+  box-shadow: 0px 20px 70px rgba(86, 89, 146, 0.1);
+  border-radius: 20px;
+  height: 200px;
+}
+
+.desc-experience p {
+  color: #79708a;
+}
+
+.card-mini {
+  background: #ffffff;
+  box-shadow: 0px 20px 70px rgba(86, 89, 146, 0.1);
+  border-radius: 20px;
+  height: 100px;
+  width: 100px;
+}
+/* END of ABOUT US */
+
 @media (max-width: 575.98px) {
   .card-body {
     padding: 0.6rem 0.6rem;
