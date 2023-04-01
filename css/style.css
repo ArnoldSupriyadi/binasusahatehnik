@@ -1,5 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif;
+  background-color: #f8f8ff;
 }
 .peanut {
   position: relative;
@@ -270,6 +271,37 @@ footer {
   border-radius: 0 0 20px;
 }
 /* End of Contact us */
+
+/* Cateogry */
+.row-card {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.available ul {
+  margin-left: -5%;
+  letter-spacing: 1px;
+  color: #7c9aff;
+  font-weight: 500;
+}
+
+.recommendation-product {
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.see-more a {
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.img-recommendation-product {
+  width: 154px;
+  height: auto;
+}
+/* End of Category */
 
 @media (max-width: 575.98px) {
   .card-body {
