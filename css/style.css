@@ -301,7 +301,24 @@ footer {
   /* width: 154px; */
   height: auto;
 }
+
+.carousel-control-prev-icon {
+  background-color: #547afb;
+  padding: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.carousel-control-next-icon {
+  background-color: #547afb;
+  padding: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
 /* End of Category */
+
 
 @media (max-width: 575.98px) {
   .card-body {
